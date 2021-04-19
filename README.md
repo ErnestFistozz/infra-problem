@@ -1,3 +1,18 @@
+# Running the project
+
+## Pre-requisite
+1. Docker & docker-compose
+
+## Executing the script
+1. Clone the project into a local directory in your machine
+2. cd into the root of the project
+3. run `docker-compose up -d --build` to build and start project
+4. The front-end listens on port `8081` ensure this port is not used, but if used by  another application , feel free to change the ``host port`` on the docker-compose file in the front-end service
+5. Open browser of your choice and go to [localhost](http://localhost:8081)
+
+Note: The application currently returns a Internal Server error!
+
+
 # DevOps Assessment
 
 This project contains three services:
