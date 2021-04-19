@@ -7,4 +7,4 @@ WORKDIR  /usr/src/app
 COPY . ./
 RUN make libs && \
     make clean all
-#CMD ["/bin/sh"]
+CMD ["/bin/sh"]
